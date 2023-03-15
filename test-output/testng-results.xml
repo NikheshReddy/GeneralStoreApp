@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="2" passed="1" failed="1" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-03-08T14:33:40 IST" name="Suite" finished-at="2023-03-08T14:35:05 IST" duration-ms="85412">
+    <groups>
+      <group name="Smoke">
+        <method signature="SmokeTestCase.fillForm_ErrorValidation()[pri:0, instance:com.generalstore.android.test.SmokeTestCase@512baff6]" name="fillForm_ErrorValidation" class="com.generalstore.android.test.SmokeTestCase"/>
+        <method signature="SmokeTestCase.fillForm_PositiveFlow()[pri:0, instance:com.generalstore.android.test.SmokeTestCase@512baff6]" name="fillForm_PositiveFlow" class="com.generalstore.android.test.SmokeTestCase"/>
+      </group> <!-- Smoke -->
+    </groups>
+    <test started-at="2023-03-08T14:33:40 IST" name="Test" finished-at="2023-03-08T14:35:05 IST" duration-ms="85412">
+      <class name="com.generalstore.android.test.SmokeTestCase">
+        <test-method is-config="true" signature="ConfigurAppium()[pri:0, instance:com.generalstore.android.test.SmokeTestCase@512baff6]" started-at="2023-03-08T14:33:40 IST" name="ConfigurAppium" finished-at="2023-03-08T14:34:05 IST" duration-ms="24903" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ConfigurAppium -->
+        <test-method signature="fillForm_ErrorValidation()[pri:0, instance:com.generalstore.android.test.SmokeTestCase@512baff6]" started-at="2023-03-08T14:34:05 IST" name="fillForm_ErrorValidation" finished-at="2023-03-08T14:34:59 IST" duration-ms="53963" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected:<Please enter your name> but was:<Please your name>]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected:<Please enter your name> but was:<Please your name>
+at org.testng.AssertJUnit.assertEquals(AssertJUnit.java:115)
+at org.testng.AssertJUnit.assertEquals(AssertJUnit.java:125)
+at com.generalstore.android.test.SmokeTestCase.fillForm_ErrorValidation(SmokeTestCase.java:30)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:969)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+at org.testng.TestRunner.privateRun(TestRunner.java:829)
+at org.testng.TestRunner.run(TestRunner.java:602)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:437)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:431)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:391)
+at org.testng.SuiteRunner.run(SuiteRunner.java:330)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1256)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1176)
+at org.testng.TestNG.runSuites(TestNG.java:1099)
+at org.testng.TestNG.run(TestNG.java:1067)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- fillForm_ErrorValidation -->
+        <test-method signature="fillForm_PositiveFlow()[pri:0, instance:com.generalstore.android.test.SmokeTestCase@512baff6]" started-at="2023-03-08T14:35:00 IST" name="fillForm_PositiveFlow" finished-at="2023-03-08T14:35:05 IST" duration-ms="4579" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- fillForm_PositiveFlow -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.generalstore.android.test.SmokeTestCase@512baff6]" started-at="2023-03-08T14:35:05 IST" name="tearDown" finished-at="2023-03-08T14:35:05 IST" duration-ms="122" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.generalstore.android.test.SmokeTestCase -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
