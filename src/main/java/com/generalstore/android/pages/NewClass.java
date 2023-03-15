@@ -7,6 +7,9 @@ public class NewClass {
 	@Test
 	public void Test() {
 		System.out.println("Test");
+		System.out.println("Test");
+		System.out.println("Test");
+	
 	}
 
 }
